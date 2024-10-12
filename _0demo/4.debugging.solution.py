@@ -9,7 +9,7 @@ def read_numbers_from_file(file_path):
                 num = float(line)
                 numbers.append(num)
             except ValueError:
-                print(f"Warning: '{line}' is not a valid number and will be skipped.")
+                # print(f"Warning: '{line}' is not a valid number and will be skipped.")
     return numbers
 
 def calculate_average(numbers):
@@ -19,9 +19,9 @@ def calculate_average(numbers):
     average = total / len(numbers)
     return average
 
-numbers = read_numbers_from_file('numbers.txt')
+numbers = read_numbers_from_file('data/numbers.txt')
 average = calculate_average(numbers)
 if average is not None:
-    print('The average is:', average)
+    # print('The average is:', average)
 else:
-    print('No valid numbers were provided.')
+    # print('No valid numbers were provided.')

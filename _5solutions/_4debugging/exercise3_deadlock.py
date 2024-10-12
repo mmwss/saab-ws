@@ -32,5 +32,5 @@ t2.start()
 t1.join()
 t2.join()
 
-print(f"Account A balance: {account_a.balance}")
-print(f"Account B balance: {account_b.balance}")
+# print(f"Account A balance: {account_a.balance}")
+# print(f"Account B balance: {account_b.balance}")

@@ -18,5 +18,5 @@ for i in range(len(numbers)):
     else:
         sum_cubes_odd = sum_cubes_odd + numbers[i] * numbers[i] * numbers[i]
 
-print('Sum of squares of even numbers:', sum_squares_even)
-print('Sum of cubes of odd numbers:', sum_cubes_odd)
+# print('Sum of squares of even numbers:', sum_squares_even)
+# print('Sum of cubes of odd numbers:', sum_cubes_odd)

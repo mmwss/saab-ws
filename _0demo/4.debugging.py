@@ -17,6 +17,6 @@ def calculate_average(numbers):
     average = total / len(numbers)
     return average
 
-numbers = read_numbers_from_file('numbers.txt')
+numbers = read_numbers_from_file('data/numbers.txt')
 average = calculate_average(numbers)
-print('The average is:', average)
+# print('The average is:', average)

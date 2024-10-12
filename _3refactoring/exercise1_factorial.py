@@ -9,7 +9,7 @@ def factorial(n):
 
 # Example usage
 number = 5
-print(f"The factorial of {number} is: {factorial(number)}")
+# print(f"The factorial of {number} is: {factorial(number)}")
 
 """
 Refactor the recursive factorial function to use iteration instead,

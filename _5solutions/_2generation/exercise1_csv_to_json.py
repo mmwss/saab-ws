@@ -12,7 +12,7 @@ def csv_to_json(csv_file_path, json_file_path):
 
 # Example usage
 if __name__ == '__main__':
-    csv_file = 'code_generation/data.csv'
-    json_file = 'code_generation/data.json'
+    csv_file = 'data/data.csv'
+    json_file = 'data/data.json'
     csv_to_json(csv_file, json_file)
-    print(f"Converted {csv_file} to {json_file}")
+    # print(f"Converted {csv_file} to {json_file}")

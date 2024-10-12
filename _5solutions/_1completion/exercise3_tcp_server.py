@@ -20,10 +20,10 @@ def start_server(port):
     server = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     server.bind(('localhost', port))
     server.listen(5)
-    print(f"Server listening on port {port}")
+    # print(f"Server listening on port {port}")
     while True:
         client_sock, addr = server.accept()
-        print(f"Accepted connection from {addr}")
+        # print(f"Accepted connection from {addr}")
         client_handler = threading.Thread(target=handle_client, args=(client_sock,))
         client_handler.start()
 

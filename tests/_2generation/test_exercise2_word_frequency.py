@@ -4,7 +4,7 @@ from _5solutions._2generation.exercise2_word_frequency import analyze_word_frequ
 
 class TestWordFrequencyAnalyzer(unittest.TestCase):
     def setUp(self):
-        self.test_dir = 'test_texts'
+        self.test_dir = 'frequency'
         os.makedirs(self.test_dir, exist_ok=True)
         with open(os.path.join(self.test_dir, 'file1.txt'), 'w') as f:
             f.write("Hello world\nHello")

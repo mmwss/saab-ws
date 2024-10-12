@@ -4,7 +4,7 @@ from _5solutions._2generation.exercise3_todo_list import TodoList
 
 class TestTodoListApplication(unittest.TestCase):
     def setUp(self):
-        self.todo_file = 'todo_list.txt'
+        self.todo_file = 'data/todo_list.txt'
         if os.path.exists(self.todo_file):
             os.remove(self.todo_file)
         self.todo_list = TodoList(self.todo_file)

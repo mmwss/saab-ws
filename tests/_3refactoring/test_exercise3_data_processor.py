@@ -4,8 +4,8 @@ from _5solutions._3refactoring.exercise3_data_processor import DataProcessor
 
 class TestDataProcessor(unittest.TestCase):
     def setUp(self):
-        self.input_file = 'input.csv'
-        self.output_file = 'output.csv'
+        self.input_file = 'data/input.csv'
+        self.output_file = 'data/output.csv'
         with open(self.input_file, 'w') as f:
             f.write('apple,banana,carrot\n')
             f.write('dog,elephant,fox\n')

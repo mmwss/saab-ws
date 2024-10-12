@@ -30,7 +30,7 @@ class DataProcessor:
 
 # Example usage
 if __name__ == "__main__":
-    input_file = 'input.csv'
-    output_file = 'output.csv'
+    input_file = 'data/input.csv'
+    output_file = 'data/output.csv'
     processor = DataProcessor(input_file, output_file)
     processor.process()

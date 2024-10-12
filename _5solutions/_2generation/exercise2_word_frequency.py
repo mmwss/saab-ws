@@ -17,7 +17,8 @@ def analyze_word_frequency(directory):
 
 # Example usage
 if __name__ == '__main__':
-    directory = 'code_generation/test_texts'
+    directory = 'data/frequency'
     frequencies = analyze_word_frequency(directory)
     for word, count in frequencies.items():
-        print(f"{word}: {count}")
+        pass
+        # print(f"{word}: {count}")

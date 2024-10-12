@@ -2,9 +2,10 @@ def calculate_average(numbers):
     return sum(numbers) / len(numbers)
 
 # Example usage
-numbers = []
-average = calculate_average(numbers)
-print(f"The average is: {average}")
+if __name__ == "__main__":
+    numbers = []
+    average = calculate_average(numbers)
+    print(f"The average is: {average}")
 
 """
 Identify and fix the error in the function that calculates the average

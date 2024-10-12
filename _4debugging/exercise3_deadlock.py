@@ -1,4 +1,4 @@
-import threading
+import time, threading
 
 class BankAccount:
     def __init__(self, balance=0):
@@ -9,7 +9,6 @@ def transfer(from_account, to_account, amount):
     with from_account.lock:
         from_account.balance -= amount
         # Simulate some processing delay
-        import time
         time.sleep(0.1)
         with to_account.lock:
             to_account.balance += amount
@@ -30,8 +29,8 @@ t2.start()
 t1.join()
 t2.join()
 
-print(f"Account A balance: {account_a.balance}")
-print(f"Account B balance: {account_b.balance}")
+# print(f"Account A balance: {account_a.balance}")
+# print(f"Account B balance: {account_b.balance}")
 
 """
 Fix the deadlock issue in a multi-threaded program

@@ -1,13 +1,11 @@
 import unittest
+import pretty_errors
 
 def run_all_tests():
     loader = unittest.TestLoader()
 
-    runner = unittest.TextTestRunner(verbosity=2)
-    result = runner.run(loader.discover('tests/_1completion'))
-    result = runner.run(loader.discover('tests/_2generation'))
-    result = runner.run(loader.discover('tests/_3refactoring'))
-    result = runner.run(loader.discover('tests/_4debugging'))
+    runner = unittest.TextTestRunner(verbosity=1)
+    result = runner.run(loader.discover('tests'))
 
     if result.wasSuccessful():
         exit(0)

@@ -22,7 +22,7 @@ def analyze_sentiment(text):
 
 def main():
     # Read reviews from JSON file
-    with open('reviews.json', 'r') as infile:
+    with open('data/reviews.json', 'r') as infile:
         reviews = json.load(infile)
 
     sentiment_counts = {'positive': 0, 'negative': 0, 'neutral': 0}
@@ -36,13 +36,13 @@ def main():
         sentiment_counts[sentiment] += 1
 
     # Save annotated reviews to a new JSON file
-    with open('annotated_reviews.json', 'w') as outfile:
+    with open('data/annotated_reviews.json', 'w') as outfile:
         json.dump(annotated_reviews, outfile, indent=2)
 
     # Print aggregated results
-    print("Sentiment Analysis Results:")
+    # print("Sentiment Analysis Results:")
     for sentiment, count in sentiment_counts.items():
-        print(f"{sentiment.capitalize()}: {count} reviews")
+        # print(f"{sentiment.capitalize()}: {count} reviews")
 
 if __name__ == "__main__":
     main()

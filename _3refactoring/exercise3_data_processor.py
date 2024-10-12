@@ -21,8 +21,8 @@ def write_data(file_path, data):
             f.write(line + '\n')
 
 # Example usage
-input_file = 'input.csv'
-output_file = 'output.csv'
+input_file = 'data/input.csv'
+output_file = 'data/output.csv'
 data = read_data(input_file)
 processed_data = process_data(data)
 write_data(output_file, processed_data)

@@ -16,9 +16,9 @@ def read_user_data(file_path):
 user_data_file = 'data/user_data.json'
 try:
     user_id, user_name, user_email = read_user_data(user_data_file)
-    # print(f"User ID: {user_id}")
-    # print(f"Name: {user_name}")
-    # print(f"Email: {user_email}")
+    print(f"User ID: {user_id}")
+    print(f"Name: {user_name}")
+    print(f"Email: {user_email}")
 except ValueError as e:
     pass
-    # print(f"Error: {e}")
+    print(f"Error: {e}")

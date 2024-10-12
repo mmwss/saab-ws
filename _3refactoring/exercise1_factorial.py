@@ -8,8 +8,9 @@ def factorial(n):
         return n * factorial(n - 1)
 
 # Example usage
-number = 5
-# print(f"The factorial of {number} is: {factorial(number)}")
+if __name__ == "__main__":
+    number = 5
+    print(f"The factorial of {number} is: {factorial(number)}")
 
 """
 Refactor the recursive factorial function to use iteration instead,

@@ -18,11 +18,12 @@ def read_user_data(file_path):
     return user_id, user_name, user_email
 
 # Example usage
-user_data_file = 'data/user_data.json'
-user_id, user_name, user_email = read_user_data(user_data_file)
-# print(f"User ID: {user_id}")
-# print(f"Name: {user_name}")
-# print(f"Email: {user_email}")
+if __name__ == '__main__':
+    user_data_file = 'data/user_data.json'
+    user_id, user_name, user_email = read_user_data(user_data_file)
+    print(f"User ID: {user_id}")
+    print(f"Name: {user_name}")
+    print(f"Email: {user_email}")
 
 """
 Debug the program that reads data from a JSON file

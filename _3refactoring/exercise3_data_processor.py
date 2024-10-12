@@ -21,11 +21,12 @@ def write_data(file_path, data):
             f.write(line + '\n')
 
 # Example usage
-input_file = 'data/input.csv'
-output_file = 'data/output.csv'
-data = read_data(input_file)
-processed_data = process_data(data)
-write_data(output_file, processed_data)
+if __name__ == '__main__':
+    input_file = 'data/input.csv'
+    output_file = 'data/output.csv'
+    data = read_data(input_file)
+    processed_data = process_data(data)
+    write_data(output_file, processed_data)
 
 """
 Refactor the given procedural code into an object-oriented design,

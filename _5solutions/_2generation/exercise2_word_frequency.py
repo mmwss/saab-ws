@@ -21,4 +21,4 @@ if __name__ == '__main__':
     frequencies = analyze_word_frequency(directory)
     for word, count in frequencies.items():
         pass
-        # print(f"{word}: {count}")
+        print(f"{word}: {count}")

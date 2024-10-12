@@ -19,4 +19,4 @@ def calculate_average(numbers):
 
 numbers = read_numbers_from_file('data/numbers.txt')
 average = calculate_average(numbers)
-# print('The average is:', average)
+print('The average is:', average)

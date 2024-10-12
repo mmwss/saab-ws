@@ -39,10 +39,10 @@ def main():
     with open('data/annotated_reviews.json', 'w') as outfile:
         json.dump(annotated_reviews, outfile, indent=2)
 
-    # Print aggregated results
-    # print("Sentiment Analysis Results:")
+    print aggregated results
+    print("Sentiment Analysis Results:")
     for sentiment, count in sentiment_counts.items():
-        # print(f"{sentiment.capitalize()}: {count} reviews")
+        print(f"{sentiment.capitalize()}: {count} reviews")
 
 if __name__ == "__main__":
     main()

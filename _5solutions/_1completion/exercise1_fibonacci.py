@@ -12,4 +12,4 @@ def generate_fibonacci(n):
 # Example usage
 n_terms = 10
 fib_sequence = generate_fibonacci(n_terms)
-# print(f"Fibonacci sequence up to {n_terms} terms: {fib_sequence}")
+print(f"Fibonacci sequence up to {n_terms} terms: {fib_sequence}")

@@ -1,6 +1,6 @@
 import unittest
 import os
-from _5solutions._3refactoring.exercise3_data_processor import DataProcessor  
+from day1._5solutions._3refactoring.exercise3_data_processor import DataProcessor  
 
 class TestDataProcessor(unittest.TestCase):
     def setUp(self):

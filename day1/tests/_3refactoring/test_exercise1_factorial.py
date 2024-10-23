@@ -1,5 +1,5 @@
 import unittest
-from _5solutions._3refactoring.exercise1_factorial import factorial
+from day1._5solutions._3refactoring.exercise1_factorial import factorial
 
 class TestFactorialFunction(unittest.TestCase):
     def test_factorial(self):

@@ -5,7 +5,7 @@ def run_all_tests():
     loader = unittest.TestLoader()
 
     runner = unittest.TextTestRunner(verbosity=1)
-    result = runner.run(loader.discover('tests'))
+    result = runner.run(loader.discover('day1/tests'))
 
     if result.wasSuccessful():
         exit(0)

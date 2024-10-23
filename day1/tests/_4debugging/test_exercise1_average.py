@@ -1,5 +1,5 @@
 import unittest
-from _5solutions._4debugging.exercise1_average import calculate_average
+from day1._5solutions._4debugging.exercise1_average import calculate_average
 
 class TestCalculateAverage(unittest.TestCase):
     def test_average_of_numbers(self):

@@ -1,5 +1,5 @@
 import unittest
-from _5solutions._1completion.exercise1_fibonacci import generate_fibonacci
+from day1._5solutions._1completion.exercise1_fibonacci import generate_fibonacci
 
 class TestFibonacciSequenceGenerator(unittest.TestCase):
     def test_fibonacci_sequence(self):

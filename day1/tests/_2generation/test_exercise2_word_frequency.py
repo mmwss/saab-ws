@@ -1,6 +1,6 @@
 import unittest
 import os
-from _5solutions._2generation.exercise2_word_frequency import analyze_word_frequency
+from day1._5solutions._2generation.exercise2_word_frequency import analyze_word_frequency
 
 class TestWordFrequencyAnalyzer(unittest.TestCase):
     def setUp(self):

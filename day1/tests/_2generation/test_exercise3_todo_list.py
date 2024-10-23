@@ -1,6 +1,6 @@
 import unittest
 import os
-from _5solutions._2generation.exercise3_todo_list import TodoList
+from day1._5solutions._2generation.exercise3_todo_list import TodoList
 
 class TestTodoListApplication(unittest.TestCase):
     def setUp(self):

@@ -1,5 +1,5 @@
 import unittest
-from _5solutions._1completion.exercise3_serializer import User, custom_serialize_user, custom_deserialize_user
+from day1._5solutions._1completion.exercise3_serializer import User, custom_serialize_user, custom_deserialize_user
 
 class TestCustomSerializer(unittest.TestCase):
     def setUp(self):

@@ -1,5 +1,5 @@
 import unittest, os
-from _5solutions._4debugging.exercise2_json_parser import read_user_data
+from day1._5solutions._4debugging.exercise2_json_parser import read_user_data
 
 class TestJSONParser(unittest.TestCase):
     def setUp(self):

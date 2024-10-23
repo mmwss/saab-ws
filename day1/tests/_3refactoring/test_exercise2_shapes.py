@@ -1,5 +1,5 @@
 import unittest
-from _5solutions._3refactoring.exercise2_shapes import Circle, Square, EquilateralTriangle
+from day1._5solutions._3refactoring.exercise2_shapes import Circle, Square, EquilateralTriangle
 
 class TestShapes(unittest.TestCase):
     def test_circle(self):

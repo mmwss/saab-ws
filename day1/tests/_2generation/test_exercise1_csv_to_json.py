@@ -1,7 +1,7 @@
 import unittest
 import os
 import json
-from _5solutions._2generation.exercise1_csv_to_json import csv_to_json
+from day1._5solutions._2generation.exercise1_csv_to_json import csv_to_json
 
 class TestCSVtoJSONConverter(unittest.TestCase):
     def setUp(self):

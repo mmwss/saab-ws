@@ -1,5 +1,5 @@
 import unittest
-from _5solutions._4debugging.exercise3_deadlock import BankAccount, transfer
+from day1._5solutions._4debugging.exercise3_deadlock import BankAccount, transfer
 import threading
 
 class TestBankTransfer(unittest.TestCase):

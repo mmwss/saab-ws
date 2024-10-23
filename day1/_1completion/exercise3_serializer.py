@@ -25,11 +25,11 @@ def custom_deserialize_user(serialized_data):
 if __name__ == "__main__":
     # Create a User object
     user = User(name="Alice", age=30, email="alice@example.com")
-    
+
     # Serialize the user object
     serialized_data = custom_serialize_user(user)
     print(f"Custom Serialized User: {serialized_data}")
-    
+
     # Deserialize back to a User object
     deserialized_user = custom_deserialize_user(serialized_data)
     print(f"Custom Deserialized User: {deserialized_user}")

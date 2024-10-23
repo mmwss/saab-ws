@@ -1,5 +1,5 @@
 import unittest
-from _5solutions._1completion.exercise2_contact_list import Contact, ContactList
+from day1._5solutions._1completion.exercise2_contact_list import Contact, ContactList
 
 class TestContactListManager(unittest.TestCase):
     def setUp(self):

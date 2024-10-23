@@ -1,5 +1,4 @@
 import unittest
-import pretty_errors
 
 def run_all_tests():
     loader = unittest.TestLoader()

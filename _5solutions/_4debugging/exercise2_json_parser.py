@@ -13,12 +13,13 @@ def read_user_data(file_path):
     return user_id, user_name, user_email
 
 # Example usage
-user_data_file = 'data/user_data.json'
-try:
-    user_id, user_name, user_email = read_user_data(user_data_file)
-    print(f"User ID: {user_id}")
-    print(f"Name: {user_name}")
-    print(f"Email: {user_email}")
-except ValueError as e:
-    pass
-    print(f"Error: {e}")
+if __name__ == "__main__":
+    user_data_file = 'data/user_data.json'
+    try:
+        user_id, user_name, user_email = read_user_data(user_data_file)
+        print(f"User ID: {user_id}")
+        print(f"Name: {user_name}")
+        print(f"Email: {user_email}")
+    except ValueError as e:
+        pass
+        print(f"Error: {e}")

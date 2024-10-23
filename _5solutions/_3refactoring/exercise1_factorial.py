@@ -10,5 +10,6 @@ def factorial(n):
     return result
 
 # Example usage
-number = 5
-print(f"The factorial of {number} is: {factorial(number)}")
+if __name__ == "__main__":
+    number = 5
+    print(f"The factorial of {number} is: {factorial(number)}")
